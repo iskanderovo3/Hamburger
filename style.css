@@ -1,0 +1,156 @@
+@import 'fonts.css';
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+:root {
+    --BrandC: #4e9f0d;
+    --Green: #69cf17;
+    --Green_75: #5eac28;
+    --Green_90: #3aff2c9f;
+    --RBlack: 'Raleway-Black';
+    --RRegular: 'Raleway-Regular';
+    --RThin: 'Raleway-Thin';
+    --RBold: 'Raleway-Bold';
+    --RLight: 'Raleway-Light';
+    --black: #000000;
+    --white: #ffffff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+section{
+    background-image: url("./bg_img.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+header{
+    height: 90px;
+}
+.brand-name{
+    background-color: var(--BrandC);
+    text-decoration: none;
+    padding: 5px 15px;
+    letter-spacing: 1px;
+    font-size: 20px;
+
+}
+.havola li a{
+    text-decoration: none;
+    padding: 0px 30px;
+    color: var(--Green_75);
+    font-family: var(--RLight);
+    font-size: 20px;
+}
+.main-link{
+    background: var(--Green_90);
+    padding: 29px 20px !important;
+}
+.title{
+    font-family: var(--RBlack);
+    color: var(--Green);
+    font-size: 60px;
+}
+.small-title{
+    font-family: var(--RRegular);
+    color: var(--Green);
+    font-size: 30px;
+    position: relative;
+    top: -18px;
+}
+.info-title{
+    font-family: var(--RRegular);
+    font-size: 20px;
+}
+.price{
+    background-color: var(--Green_90);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px 0px;
+    font-size: 40px;
+    border: none;
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+}
+.cards{
+    height: 100%;
+    background-color: black;
+}
+.nav{
+    height: 70px;
+    font-family: var(--RBold);
+    font-size: 20px;
+    padding-top: 10px;
+}
+.nav-link{
+    color: gray !important;
+    padding: 0 25px !important;
+}
+.product-name{
+    margin-top: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: var(--Green);
+}
+.product-info{
+    width: 90%;
+    padding-bottom: 15px;
+}
+.more-info{
+    background-image: url("./section_bg.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.more-info h2{
+    font-family: var(--RBold);
+    color: var(--Green);
+}
+.more-info p{
+    font-family: var(--RRegular);
+    line-height: 23px;
+    font-size: 18px;
+}
+.line1{
+    display: flex;
+    justify-content: center;
+}
+.line{
+    border-bottom: solid 1px var(--Green);
+    width: 180px;
+    padding-top: 10px;
+}
+.location{
+    height: 100%;
+}
+.branches{
+    color: var(--Green);
+    font-family: var(--RRegular);
+}
+footer{
+    background: linear-gradient(#000000,#0f5100);
+    height: 100%;
+    margin-top: -5px;
+}
+#coffe{
+    font-family: var(--RBold);
+    color: var(--Green);
+}
+.number{
+    color: var(--Green) !important;
+    font-size: 20px;
+}
+.icons i{
+    padding: 0 20px;
+    font-size: 20px;
+}
+footer .copyright{
+    font-size: 15px;
+    font-family: var(--RBold);
+    color: white;
+}
